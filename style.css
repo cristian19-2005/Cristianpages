@@ -1,0 +1,110 @@
+
+body{
+  background-color: #81c7c1;
+  margin: 0px;
+}
+#menu1{
+  width: 10%;
+  height: 65%;
+  position: relative;
+  top:16%;
+  left:2%;
+  background-color: #81c7c1;
+  border-radius: 2px;
+  border: 3px solid rgb(99,169,169);
+}
+#menu1:active{
+  background-color:#a5d6d6;
+  
+}
+#menu2{
+  width: 30%;
+  height: 5%;
+  position: relative;
+  top:2%;
+  left:70%;
+  background-color: #81c7c1;
+  border-radius: 2px ;
+  color:white;
+  border: 3px solid rgb(99,169,169);
+}
+#menu2:active{
+  background-color: #a5d6d6;
+}
+#guia{
+  background-color: #a5d6d6;
+  position: fixed;
+  width:100%;
+  height: 7%;
+}
+td{
+  border: 1px solid;
+  width:20%;
+  height: 35px;
+  padding: 0px;
+  background-color: #a5d6d6;
+  text-align: center;
+}
+
+#productos{
+  position:absolute;
+  top: 10%;
+  width: 100%;
+  
+}
+#oculto {
+  position: absolute;
+  width: 45%; /* Ancho del div */
+  height: 100%; /* Alto del div */
+  background-color: #a5d6d6; /* Color de fondo */
+  display: none; /* Oculto inicialmente */
+}
+#agregar {
+  height:15%;
+  width:15%;
+  border: 3px solid rgb(99,169,169);
+  border-radius:20%;
+  position:fixed;
+  right:5%;
+  bottom:5%;
+  font-size:30px;
+  background-color: rgb(109,179,179);
+}
+#agregar:active{
+  background-color:#a5d6d6;
+}
+#add {
+  height: 70%;
+  width: 70%;
+  background-color:#a5d6d6;
+  left:15%;
+  top:15%;
+  position:fixed;
+  align-content: center;
+  border: 3px solid rgb(99,169,169);
+  border-radius: 3%;
+  display: none;
+}
+label{
+  position:relative;
+  left:20%
+}
+input{
+  position: relative;
+  left:20%;
+  border: 3px solid rgb(99,169,169);
+  background-color:#a7d9d9;
+  color:black;
+  margin-bottom:10%;
+  height:25px;
+  border-radius: 5px;
+}
+#close {
+  bottom: 5%;
+  left:85%;
+  position: relative;
+  border: 3px solid rgb(99,169,169);
+  background-color:#a7d9d9;
+  font-size: large;
+  border-radius: 5px;
+}
